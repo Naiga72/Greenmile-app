@@ -1,0 +1,106 @@
+.login-container {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    border-radius: 20px;
+    padding: 30px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e3fff6;
+  }
+  
+  .login-form h1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-inputs {
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+  
+  .login-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+  }
+  
+  .checkbox {
+    display: inline-block;
+  }
+  
+  .form-options {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+  
+  .checkbox-field {
+    display: inline-block;
+  }
+  
+  .form-options a {
+    text-decoration: none;
+  }
+  
+  .login-input-button {
+    background-color: #333333;
+    color: #fff;
+    width: 80%;
+    margin-bottom: 0.5rem;
+    display: block;
+    padding-left: 10px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 40px;
+  }
+  
+  .login-input-button:hover {
+    box-shadow: 5px 10px;
+    transition: all 0.4s ease-out;
+  }
+  
+  .form-input-signup {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .form-input-signup a {
+    text-decoration: none;
+    color: #27cdff;
+    font-weight: 600;
+  }
+  
+  .text-right {
+    float: right;
+    font-size: 16px;
+    color: #167bff;
+    margin-left: 120px;
+  }
+  
+  /* media queries for mobile screens */
+  @media only screen and (max-width: 600px) {
+    .login-container {
+      width: 100%;
+    }
+  }
+  
